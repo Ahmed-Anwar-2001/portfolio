@@ -201,7 +201,7 @@ span{
 }
 
 .text-animation span::before{
-    content: 'NLP Engineer';
+    content: 'ML/AI Engineer';
     color: var(--main-color);
     animation: words 9s infinite;
 }
@@ -226,15 +226,15 @@ span{
 @keyframes words{
     0%, 
     33.33%{
-        content: 'NLP Engineer';
+        content: 'ML/AI Engineer';
     }
     33.34%,
     66.66%{
-        content: 'Web Developer';
+        content: 'Generative AI Specialist';
     }
     66.67%,
     100%{
-        content: 'Content Writer';
+        content: 'Web Developer';
     }
 }
 @keyframes typing{
@@ -314,6 +314,7 @@ span{
 .about-content p{
     font-size: 1.4rem;
     margin: 2rem 0 3rem;
+    text-align: justify;
 }
 
 ::-webkit-scrollbar{
@@ -447,6 +448,14 @@ span{
     margin-bottom: 1rem;
 }
 
+.experience-item h4 {
+    font-size: 1.9rem;
+    color: white;
+    margin-bottom: 1rem;
+    border: 2px solid var(--main-color);
+    padding: 10px;
+}
+
 .experience-date {
     font-size: 1.6rem;
     color: var(--main-color);
@@ -458,7 +467,11 @@ span{
     margin-bottom: 0.5rem;
     max-width: 800px; 
 }
-
+.experience-description ul *{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    max-width: 800px; 
+}
 
 
 
